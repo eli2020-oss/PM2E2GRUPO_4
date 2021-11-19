@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2E2GRUPO_4.Views.UbicacionesDetailsPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="latitud" Text="{Binding latitud}"/>
+            <Entry x:Name="longitud" Text="{Binding longitud}" />
+            <Entry x:Name="descripcion" Text="{Binding descripcion}" />
+          
+            <Button Text="Delete" Clicked="BtnDelate_Ubicaciones"/>
+              <Button Text="Update" Clicked="BtnUpdate_Ubicaciones"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
